@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>Equations</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+	
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+		tex2jax: {
+		  inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+		  processEscapes: true
+		}
+	  });
+	</script>
+
+	<style>p.indent{ padding-left: 10% }</style>
+</head>
+
+<body>
+
+	<!--================ Start Header Area =================-->
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav justify-content-end">
+							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="Research.html">Research</a></li>
+							<li class="nav-item"><a class="nav-link" href="Code.html">Code</a></li>
+							<li class="nav-item active"><a class="nav-link" href="Equations.html">Equations</a></li>
+							<li class="nav-item"><a class="nav-link" href="Fun.html">Fun</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--================ End Header Area =================-->
+
+   <!--================ Start About Us Area =================-->
+	<section class="about_area section_gap_top">
+	<div class="main_title">
+                        <h2>Equations </h2>
+						
+                        <h4>A few of the more commonly used equations for Machine Learning/Data Mining <br><br>
+                        </h4>
+                    </div>
+	
+        <div class="container">
+		<br><br>
+
+<h3>Distance Metrics</h3>
+<center><h5>Euclidean distance </h5></center>
+
+\begin{equation}
+\sqrt{\sum_{i=1}^n (x_i-y_i)^2}     
+\end{equation}
+
+<center><h5>Manhattan distance</h5></center>
+
+\begin{equation}
+\sum_{i=1}^n |x_i-y_i|
+\end{equation}
+
+<center><h5>Hamming distance (x and y are binary vectors)</h5></center>
+
+\begin{equation}
+\sum_{i=1}^n |x_i-y_i|
+\end{equation}
+
+<center><h5>Minkowski distance</h5></center>
+\begin{equation}
+\left(\sum_{i=1}^n |x_i-y_i|^p\right)^{1/p}
+\end{equation}
+
+
+<h3>Quadratic equation</h3>
+\begin{equation}
+x = {-b \pm \sqrt{b^2-4ac} \over 2a}
+\end{equation}
+
+
+
+<h3>Univariate Statistics</h3>
+<center><h5>Population mean</h5></center>
+
+\begin{equation}
+\mu = \frac{1}{N} \sum_{i=1}^N x_i
+\end{equation}
+
+<center><h5>Standard deviation</h5></center>
+
+\begin{equation}
+	\sigma = \sqrt{\frac{1}{N} \sum_{i=1}^N (x_i - \mu)^2}
+\end{equation}
+
+<center><h5>Variance</h5></center>
+
+\begin{equation}
+	\sigma{_x}^{2} = \sum_{i=1}^{n} (x_i - \bar{x})^2\quad
+\end{equation}
+
+
+<h3>Pre-processing</h3>
+<center><h5>Normalization</h5></center>
+
+\begin{equation}
+	z = \frac{x - \mu}{\sigma}
+\end{equation}
+
+
+<center><h5>Standardizing</h5></center>
+
+\begin{equation}
+X_{standarize} = \frac{X - X_{min}}{X_{max}-X_{min}}
+\end{equation}
+
+<h3> Comparing two vectors</h3>
+<center><h5>Pearson Correlation</h5></center>
+
+\begin{equation}
+\rho_{X,Y} = \frac{\text{cov}(X,Y)}{\sigma_X \sigma_Y}
+\end{equation}
+
+
+<center><h5>Spearman Correlation</h5></center>
+
+\begin{equation}
+\rho_{s} = \rho_{X_{[i]},Y_{[i]}} = 1- {\frac {6 \sum d_i^2}{n(n^2 - 1)}}
+\end{equation}
+
+
+<center><h5>Cosine Similarity</h5></center>
+
+\begin{equation}
+cos(\pmb x, \pmb y) = \frac {\pmb x \cdot \pmb y}{||\pmb x|| \cdot ||\pmb y||}
+\end{equation}
+
+
+<center><h5>Co-Variance</h5></center>
+
+
+\begin{equation}
+S_{xy} = \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})
+\end{equation}
+
+
+<h3>Eigenvector and Eigenvalue</h3>
+
+
+\begin{equation}
+\pmb A\pmb{v} =  \lambda\pmb{v}
+\end{equation}
+
+
+
+<h3>Binomial distribution</h3>
+
+\begin{equation}
+	p_k = {n \choose x} \cdot p^k \cdot (1-p)^{n-k}
+\end{equation}
+
+
+<h3>Gaussian distribution</h3> 
+<center><h5>Univariate </h5></center>
+
+\begin{equation}
+p(x) \sim N(\mu|\sigma^2) 
+\end{equation}
+
+\begin{equation}
+p(x) \sim \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}
+\end{equation}
+
+<center><h5>multivariate </h5></center>
+
+\begin{equation}
+p(\pmb x) \sim N(\pmb \mu|\Sigma)
+\end{equation}
+
+\begin{equation}
+p(\pmb x) \sim \frac{1}{(2\pi)^{d/2} |\Sigma|^{1/2}} e^{-\frac{1}{2}(\pmb x - \pmb \mu)^t \Sigma^{-1}(\pmb x - \pmb \mu) }
+\end{equation}
+
+
+<h3>Maximum Likelihood Estimate</h3>
+
+
+
+<center><h5>Given,</h5></center>
+\begin{equation}
+D = \left\{ \pmb x_1, \pmb x_2,..., \pmb x_n \right\} 
+\end{equation}
+
+<center><h5>Assuming the samples are i.i.d.,</h5></center>
+\begin{equation}
+p(D|  \pmb \theta) = p(\pmb x_1 | \pmb \theta) \cdot p(\pmb x_2 | \pmb \theta)  \cdot \;...  \; p(\pmb x_n | \pmb \theta)
+\end{equation}
+
+\begin{equation}
+p(D|  \pmb \theta)= \prod_{k=1}^{n} p(\pmb x_k  | \pmb \theta)
+\end{equation}
+
+
+
+<center><h5>The Log likelihood is</h5></center>
+\begin{equation}
+\Rightarrow l(\theta) = \sum_{k=1}^{n} ln | p(x_k|\theta)
+\end{equation}
+
+<center><h5>    Differentiating and solving for ( &theta; ) </h5></center>
+
+\begin{equation}
+\nabla_{\pmb \theta} \equiv \begin{bmatrix}  
+\frac{\partial }{\partial \theta_1} \\
+\frac{\partial }{\partial \theta_2} \\
+...\\
+\frac{\partial }{\partial \theta_p}\end{bmatrix}
+\end{equation}
+
+\begin{equation}
+\nabla_{\pmb \theta} l(\pmb\theta) \equiv \begin{bmatrix}  
+\frac{\partial L(\pmb\theta)}{\partial \theta_1} \\
+\frac{\partial L(\pmb\theta)}{\partial \theta_2} \\
+...\\
+\frac{\partial L(\pmb\theta)}{\partial \theta_p}\end{bmatrix}
+= \begin{bmatrix}  
+0 \\
+0 \\
+...\\
+0\end{bmatrix}
+\end{equation}
+
+
+
+<h3>Linear Discriminant Analysis</h3>
+
+    <center><h5>In-between class scatter matrix</h5></center>
+\begin{equation}
+S_w = \sum\limits_{i=1}^{c} S_i
+\end{equation}
+
+<center><h5>where,</h5></center>
+\begin{equation}
+S_i = \sum\limits_{\pmb x \in D_i}^n (\pmb x - \pmb m_i)\;(\pmb x - \pmb m_i)^T
+\end{equation}
+
+\begin{equation}  
+\pmb m_i = \frac{1}{n_i} \sum\limits_{\pmb x \in D_i}^n  \pmb x_k   
+\end{equation}
+
+<center><h5>    Between class scatter matrix </h5></center>	
+\begin{equation}
+S_b = \sum\limits_{i=1}^{c} (\pmb m_i - \pmb m) (\pmb m_i - \pmb m)^T
+\end{equation}
+
+\begin{equation}
+\Phi_{lda}=\arg\max_{\Phi} \frac{|\Phi^TS_b\Phi|}{|\Phi^TS_w\Phi|}
+\end{equation}
+
+
+
+<h3>Multiple Linear Regression</h3>
+\begin{equation}
+\pmb X  \pmb w = \pmb y
+\end{equation}
+
+\begin{equation}
+\Bigg[ \begin{array}{cc}
+x_1 & 1  \\
+... & 1 \\
+x_n & 1  \end{array} \Bigg]\bigg[ \begin{array}{c}
+w  \\
+b \end{array} \bigg]=\Bigg[ \begin{array}{c}
+y_1   \\
+...  \\
+y_n  \end{array} \Bigg]
+\end{equation}
+
+\begin{equation}
+\pmb w = (\pmb X^T \pmb X)^{-1} \pmb X^T \pmb y
+\end{equation}
+
+
+<h3>Contour Regression</h3>
+
+\begin{equation}
+\pmb X  \pmb w = \pmb y
+\end{equation}
+
+\begin{equation}
+\Bigg[ \begin{array}{cc}
+x_1 & 1  \\
+... & 1 \\
+x_n & 1  \end{array} \Bigg]\bigg[ \begin{array}{c}
+w  \\
+b \end{array} \bigg]=\Bigg[ \begin{array}{c}
+y_1   \\
+...  \\
+y_n  \end{array} \Bigg]
+\end{equation}
+
+<center>Step 1: Initizalize \(\;\pmb w \;\) using  \(\;\pmb w = (\pmb X^T \pmb X)^{-1} \pmb X^T \pmb y \hspace{50pt}\)</center>
+<center>Step 2: Repeat until convergence  \(\hspace{135pt}\)</center>
+
+<center>Step 2a: Reorder \(\;\pmb X \;\) based on latest \(\hat{y}  \hspace{70pt}\)</center>
+
+<center>Step 2b: Estimate \(\;\pmb w \;\) using \(\hspace{125pt}\) </center>
+\begin{equation}
+\pmb w = (\pmb X^T \pmb X)^{-1} \pmb X^T \pmb (y+\hat{y}_{[i]}) 
+\end{equation}
+
+
+<h3>Naive Bayes' classifier</h3>
+	<center><h5>    Posterior probability:	</h5></center>
+\begin{equation}
+      P(\omega_j|x) = \frac{p(x|\omega_j) \cdot P(\omega_j)}{p(x)}
+\end{equation}
+\begin{equation}
+      \Rightarrow \text{posterior} = \frac{ \text{likelihood}  \cdot \text{prior}}{\text{evidence}}
+\end{equation}
+	<center><h5>    Decision rule:	</h5></center>
+      \begin{equation}
+      \frac{p(x|\omega_1) \cdot P(\omega_1)}{p(x)} > \frac{p(x|\omega_2) \cdot P(\omega_2)}{p(x)}
+\end{equation}
+</h3>
+
+                        <a class="primary_btn" href="Links/Equations.pdf"><span>Download the Equations file</span></a>
+                    
+			</div>
+    </section>
+    <!--================ End About Us Area =================-->
+
+        
+        <!--================Footer Area =================-->
+	<footer class="footer_area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="footer_top flex-column">
+                        <div class="footer_logo">
+                            <a href="#">
+                                <img src="img/logo.png" alt="">
+                            </a>
+                            <h4>Contact Me</h4>
+                        </div>
+                        <div class="footer_social">
+                            <a href="https://www.linkedin.com/in/zubinabraham/"><i class="fa fa-linkedin"></i></a>	
+							<a href="mailto:<MyFirstname>.<MyLastname>@yahoo.com"><i class="fa fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer_bottom justify-content-center">
+                <p class="col-lg-8 col-sm-12 footer-text">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+        </div>
+    </footer>
+    <!--================End Footer Area =================-->
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope-min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!--gmaps Js-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="js/gmaps.min.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+
+</html>
