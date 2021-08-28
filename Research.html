@@ -237,25 +237,25 @@
 				</a>
 				<div class="row">
 					<div class="col-md-3">
-						<img src="img/research/RCM.png" alt="Zubin Abraham Data Mining Machine Learning Contour Regression" class="img-fluid"><br><br>
-						<img src="img/research/StatDownscaling.png" alt="Zubin Abraham Data Mining Machine Learning Contour Regression" class="img-fluid"><br><br>
-						<img src="img/research/ZeroInflated1.jpg" alt="Zubin Abraham Data Mining Machine Learning Contour Regression" class="img-fluid">
+						<img src="img/research/RCM.png" alt="Zubin Abraham Data Mining Machine Learning Long-Term forecasting " class="img-fluid"><br><br>
+						<img src="img/research/StatDownscaling.png" alt="Zubin Abraham Data Mining Machine Learning Integrated Classification and Regression" class="img-fluid"><br><br>
+						<img src="img/research/ZeroInflated1.jpg" alt="Zubin Abraham Data Mining Machine Learning Extreme values" class="img-fluid">
 						
 					</div>
 					<div class="col-md-9 mt-sm-20 left-align-p">
 					<p>
 						To differentiate between long-term forecasting and short-term forecasting, let consider the example.  Given the observed daily temperature at your home town, forecasting the temperature later tonight or tomorrow is an example of short-term forecasting, while estimating the climate a few years of decades from now is an example of long term forecasting. Here is a list of few of the challenges that were important to the domain.
-						</p><img src="img/research/LTF3.png" alt="Zubin Abraham Data Mining Machine Learning Contour Regression" class="img-fluid"><p>
+						</p><img src="img/research/LTF3.png" alt="Zubin Abraham Data Mining Machine Learning Long term forecasting" class="img-fluid"><p>
 						The first challenge to Long term forecasting is that conventional short-term time series forecasting approaches such as autoregressive approaches were not well suited for long-term forecasting. The second challenge is that unlike short-term projections, there are two distinct expectations of long-term projections. First is an accurate projection and second and equally important requirement is an unbiased distribution of the projection. An unbiased projection is one whose distributions is consistent with that of observation.
 						</p>
-						<img src="img/research/LTF5.png" alt="Zubin Abraham Data Mining Machine Learning Contour Regression" class="img-fluid">
+						<img src="img/research/LTF5.png" alt="Zubin Abraham Data Mining Machine Learning Long term forecasting" class="img-fluid">
 						<p>
 						Let's look at the example of forecasting precipitation. The distribution of an observed precipitation variable varies by location, but is often zero-inflated. A zero-inflated distribution is a distribution with an abundance of zero values. Such distribution can also be found in many other applications that are related to long-term projections, such as climate modeling, ecological modeling, disease monitoring, and traffic monitoring. As conventional regression methods typically prioritize modeling the conditional mean of the distribution, they tend to underestimate the frequency of zero-valued data points as well as the magnitude of the extreme values of a zero-inflated variable. Thus, there is a need to develop models that are geared toward dealing with some of the more uncharacteristic distributions observed such as zero-inflated data.
 						</p><p>
 						Integrated Classification and Regression (ICR) framework is a multi-objective framework that simultaneously performs classification and regression to accurately predict values of a zero-inflated time series.  The regression and classification models are trained to optimize a joint objective function that minimizes both the classification errors (zero and non-zero values) and regression errors for data points that have non-zero values. The framework compensates for the uncertainty in the data by using a smoothing function that prioritizes non-zero valued data point whose response value is consistent with other data points having similar values for their respective predictor variable, during the learning of the regression function. The effectiveness of the framework is demonstrated in the context of its application to a downscaling precipitation climate variable.
 						</p>
 						
-						<img src="img/research/ICR.png" alt="Zubin Abraham Data Mining Machine Learning Contour Regression" class="img-fluid"><br>
+						<img src="img/research/ICR.png" alt="Zubin Abraham Data Mining Machine Learning Long term forecasting" class="img-fluid"><br>
 						
 						The Long-Term Forecasting model is very flexible and  can be used for modelling 
 
@@ -280,9 +280,9 @@
 				</a>
 				<div class="row">
 					<div class="col-md-3">
-						<img src="img/research/SSL.png" alt="Zubin Abraham Data Mining Machine Learning Contour Regression" class="img-fluid">
-						<img src="img/research/SSL1.png" alt="Zubin Abraham Data Mining Machine Learning Contour Regression" class="img-fluid">
-						<img src="img/research/SSL2.png" alt="Zubin Abraham Data Mining Machine Learning Contour Regression" class="img-fluid">
+						<img src="img/research/SSL.png" alt="Zubin Abraham Data Mining Machine Learning Semi-Supervised Learning" class="img-fluid">
+						<img src="img/research/SSL1.png" alt="Zubin Abraham Data Mining Machine Learning Semi-Supervised Learning" class="img-fluid">
+						<img src="img/research/SSL2.png" alt="Zubin Abraham Data Mining Machine Learning Semi-Supervised Learning" class="img-fluid">
 					</div>
 					<div class="col-md-9 mt-sm-20 left-align-p">
 						<p>Previous studies have shown that unlabeled data are helpful as long as their distribution is similar to those in the labeled training data. For climate data, the natural periodic behavior of the predictor variables and the response variable (precipitation) provides an opportunity to leverage the unlabeled data to improve precipitation prediction. Figure 4.1 shows the average similarity values of the predictor variables over time. The horizontal axis corresponds to the width of two time periods in the time series while the vertical axis corresponds to the average similarity for all pairs of time periods with the given width. One of the encouraging observations is that the similarity of the predictors showed very slow decay with time. This observation encourages the notion that the predictor variables even if separated by large time differences still contain useful information that can be exploited for predicting future precipitation events. One caveat is that though the similarity of predictor variables may not differ much over time, the similarity of the relationship between the predictor and response variables over time tend to decrease at a much faster rate. 
@@ -300,7 +300,7 @@
 				</a>
 				<div class="row">
 					<div class="col-md-3">
-						<img src="img/research/ICRE2.jpg" alt="Zubin Abraham Data Mining Machine Learning Contour Regression" class="img-fluid">
+						<img src="img/research/ICRE2.jpg" alt="Zubin Abraham Data Mining Machine Learning Contour Forecasting Extreme-Values" class="img-fluid">
 					</div>
 					<div class="col-md-9 mt-sm-20 left-align-p">
 						<p>When considering the distribution characteristics of the regression outputs, the end user may be more interested in certain quantiles over others. For instance, farmers are often curious to know the frequency and magnitude of extreme values in the climate projections, due to the larger economic implications associated with them. However, as most regression models prioritize the conditional mean of the distribution, they tend to underestimate the frequency of extreme-valued data points. Thus, there is a need to provide a framework that is flexible enough to prioritize the accuracy at the quantiles of the end-user's choice, without significantly degrading the performance at other quantiles.
@@ -320,9 +320,9 @@
 				</a>
 				<div class="row">
 					<div class="col-md-3">
-						<img src="img/research/CBVR.jpg" alt="Zubin Abraham Data Mining Machine Learning Contour Regression" class="img-fluid">
+						<img src="img/research/CBVR.jpg" alt="Zubin Abraham Data Mining Machine Learning Virtual Reality" class="img-fluid">
 						<br><br><br>
-						<img src="img/research/CBVR2.jpg" alt="Zubin Abraham Data Mining Machine Learning Contour Regression" class="img-fluid">
+						<img src="img/research/CBVR2.jpg" alt="Zubin Abraham Data Mining Machine Learning Virtual Reality" class="img-fluid">
 					</div>
 					<div class="col-md-9 mt-sm-20 left-align-p">
 				<p>Virtual Video Gallery is a virtual video browsing environment that facilitates browsing and retrieval of video clips from a video repository by using content-based video retrieval techniques. 
@@ -338,7 +338,7 @@
 				</a>
 				<div class="row">
 					<div class="col-md-3">
-						<img src="img/research/ADE.png" alt="Zubin Abraham Data Mining Machine Learning Contour Regression" class="img-fluid">
+						<img src="img/research/ADE.png" alt="Zubin Abraham Data Mining Machine Learning Anomaly Detection" class="img-fluid">
 					</div>
 					<div class="col-md-9 mt-sm-20 left-align-p">
 						<p>An anomaly detection model that seamlessly works with any numerical data stream. Unlike conventional anomaly detection tools, this solution does not require historical data or expert to define rules or provide labeled data apriori to learning the model. A semi-supervised framework is leveraged to customize the model’s decision boundary based on user’s feedback (labels) to anomalies detected by the model. The online nature of the framework allows the decision boundaries of the model to adapt to drift in the data over time. 
