@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://zubinabraham.github.io/</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/index.html</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Research.html</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Code.html</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Equations.html</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Fun.html</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/Contour%20Regression.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/A%20Distribution%20Regularized%20Regression%20framework%20for%20Climate%20Modeling.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/Distribution%20Preserving%20Multi-Task%20Regression%20for%20Spatio-Temporal%20Data.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/LongTermForecasting.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/MULTI-OBJECTIVE%20REGRESSION.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/Position%20Preserving%20Multi-Output%20Prediction.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/Downscaling_NonScientist_I_GeoCompass_2011.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/ConceptDriftDetectionForStreamingData.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/CONCEPT%20DRIFT%20DETECTION%20WITH%20HIERARCHICAL%20HYPOTHESIS%20TESTING.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/Concept%20Drift%20Detection%20and%20Adaptation%20with%20Hierarchical%20Hypothesis%20testing.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/Hierarchical%20Concept%20Drift%20Detection%20and%20Adaptation.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/An%20Integrated%20Framework%20for%20Simultaneous%20Classification%20and%20Regression%20of%20Time-Series%20Data.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/A%20Semi-supervised%20Framework%20for%20Simultaneous%20Classification%20and%20Regression%20of%20Zero-Inflated%20Time%20Series%20Data%20with%20Application%20to%20Precipitation%20Prediction.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/Extreme%20Value%20Prediction%20for%20Zero-Inflated%20Data.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/Smoothed%20Quantile%20Regression%20for%20Statistical%20Downscaling%20of%20Extreme%20Events%20in%20Climate%20Modeling.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/VIRTUAL%20ENVIRONMENT%20FOR%20VIDEO%20BROWSING.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/BLOOD_PRESSURE_AND_CARDIAC_MONITORING_SYSTEM_AND_METHOD_THEREOF.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/VITAL_SIGNS_MONITORING_SYSTEM_AND_METHOD.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/Securing%20Sensor%20Nodes%20against%20Side%20Channel%20Attacks.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/Empirical%20Comparison%20of%20Active%20Learning%20Strategies%20for%20Handling%20Temporal%20Drift.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zubinabraham.github.io/Links/Equations.pdf</loc>
+  <lastmod>2021-08-28T22:03:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
